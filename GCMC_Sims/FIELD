@@ -1,0 +1,43 @@
+Force fields and bond constraints for CO2 in a zeolite
+CUTOFF 12.0
+UNITS K
+NCONFIGS 1
+ATOMS 8
+Si core 28 .78598
+O1 core 16 -.39299
+O2 core 16 -.41384
+Al core 27 .48598
+Na core 23 .3834
+C_ core 12 0.6512
+O_ core 16 -0.3256
+Xe core 1 0.0
+MOLTYPES 2
+zeolite
+MAXATOM 672
+co2
+ATOMS 3 3
+C_ core  0.00000000 0.0000000 0.0000000
+O_ core 1.14900000 0.0000000 0.0000000
+O_ core -1.14900000 0.0000000 0.0000000
+BONDS 3
+    1    2    1
+    1    3    1
+    2    3    2
+FINISH
+VDW 12
+O_ core       O_ core       lj    85.671 3.017
+C_ core       C_ core       lj    29.933 2.745
+O_ core       C_ core       lj    50.64 2.88
+O_ core       O1 core       lj    78.98 3.237
+O_ core       O2 core       lj    78.98 3.237
+C_ core       O1 core       lj    37.595 3.511
+C_ core       O2 core       lj    37.595 3.511
+O_ core       Na core       lj    200.831 2.758
+C_ core       Na core       lj    362.292 3.32
+O1 core       Na core       lj    23 3.4
+O2 core       Na core       lj    23 3.4
+O_ core      Xe core      12-6   16777216 0.0
+BONDS 2
+C_ core O_ core buck 0.0 0.1 0.0
+O_ core O_ core buck 0.0 0.1 0.0
+CLOSE
