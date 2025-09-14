@@ -572,7 +572,7 @@ The following table is the raw simulated values of each zeolite configuration
 
 The Following Table is the Langmuir Isotherm Constants QO and KL Calculated for each Configuration for CO2 Adsorption:
 
- | Zeolite Configuration | Temperature | QO(CO2) | KL(CO2) | 
+ | Zeolite Configuration | Temperature | QO(CO2) | KL(CO2) | R^2 fit |
  | --- | --- | --- | --- | --- |
 | FAU1.0 | 313K | 5.420 | 42.330 | 0.89 |
  | FAU1.0 | 393K | 4.310 | 3.900 | 0.95 |
@@ -739,7 +739,7 @@ The Following Table is the Langmuir Isotherm Constants QO and KL Calculated for 
 
  The Following Table is the Langmuir Isotherm Constants QO and KL for N2 adsorption in each Configuration:
 
-  | Zeolite Configuration | Pressure | QO(N2) | KL(N2) | 
+  | Zeolite Configuration | Pressure | QO(N2) | KL(N2) | R^2 fit |
  | --- | --- | --- | --- | --- |
  | FAU1.0 | 313K | 8.480 | 0.060 | 0.78 |
  | FAU1.5 | 313K | 2.870 | 0.080 | 0.75 |
