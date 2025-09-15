@@ -5,7 +5,7 @@ finish
 temperature       313
 acceptmolmoveupdate  200        # Period (in moves) at which the maximum move size is recalculated
 acceptmolrotupdate  200         # Period (in moves) at which the maximum rotation angle is updated
-steps             100000        # Number of moves to perform in simulation
+steps             150000        # Number of moves to perform in simulation
 equilibration     50000        # Equilibration time before statistics are gathered (in moves)
 print               1000        # Information is output every 'print' moves     
 revconformat dlmonte             # REVCON file is in DL_POLY CONFIG format
