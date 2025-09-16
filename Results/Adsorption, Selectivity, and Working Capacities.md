@@ -13,7 +13,7 @@ Adsorption Capacities at 1.0 atm flue gas @ 22% CO2 (+- .17 mmol/g)
 | 4.5 | 1.81 | 3.23 | 2.14 | 1.44 | 2.13 | 1.98 | 3.23 | 1.55 | 1.35 | 
 | 5.0 | 1.40 | 2.74 | 1.82 | 1.33 | 1.99 | 2.15 | 3.11 | 1.18 | 1.39 | 
 
-CO2/N2 Selectivities at 1.0 atm flue gas @ 22% CO2 and 69% N2
+CO2/N2 Selectivities at 1.0 atm flue gas @ 22% CO2 and 69% N2 (Lower bound = 0)
 
 | Si/Al | FAU | LTA | RHO | MFI | JSR | MOR | RWY | KFI | FER |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
