@@ -9,9 +9,9 @@ The GCMC_Sims folder holds the CONFIG, FIELD, and CONTROL files for the DL_MONTE
 > [!IMPORTANT]
 > DL_MONTE is designed to run on Linux systems. This program utilizes the Ubuntu command terminal to run the simulations. For Windows users, download the Windows Subsystem for Linux (WSL) and Ubuntu. 
 
-There is an additional DLMONTE-SRL.X file included in the GCMC subfolders that is needed to run the simulation, but it is never altered; only called on the command terminal.
+There is an additional DLMONTE-SRL.X file included in the dl_monte_sims subfolders that is needed to run the simulation, but it is never altered; only called on the command terminal.
 
-The ZeolitesToTry folder holds all the xyz files of the zeolites used. This was created by going to the Database of Zeolite Structures (https://www.iza-structure.org/databases/) and downloading the CIF file Si-) frameworks of all the zeolites. Then, using the VESTA software, every CIF file was loaded and exported into XYZ format. Afterward, the unit cell lattice dimensions were inserted into the top line of each XYZ file. 
+The ZeolitesToTry folder holds all the xyz files of the zeolites used. This was created by going to the Database of Zeolite Structures (https://www.iza-structure.org/databases/) and downloading the CIF file Si-O frameworks of all the zeolites. Then, using the VESTA software, every CIF file was loaded and exported into XYZ format. Afterward, the unit cells were repeated to achieve at least 192 silicon atoms and the lattice dimensions were inserted into the top line of each XYZ file. 
 
 The SimulationRunner folder holds all the Java programs that automate and run the simulation process. The process to run the simulations follows 3 steps:
 1. Run the GeometryOptimization class. This will take the xyz files in the ZeolitesToTry folder and generate new xyz files in the SimulationRunner folder that have a Si/Al ratio of 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, and 5, insert sodium atoms, and delete any repeated atoms.
