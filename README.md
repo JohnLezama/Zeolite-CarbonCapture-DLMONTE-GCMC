@@ -9,7 +9,7 @@ The GCMC_Sims folder holds the CONFIG, FIELD, and CONTROL files for the DL_MONTE
 > [!IMPORTANT]
 > DL_MONTE is designed to run on Linux systems. This program utilizes the Ubuntu command terminal to run the simulations. For Windows users, download the Windows Subsystem for Linux (WSL) and Ubuntu. 
 
-There is an additional DLMONTE-SRL.X file that is needed to run the simulation, but it is never altered; only called on the command terminal.
+There is an additional DLMONTE-SRL.X file included in the GCMC subfolders that is needed to run the simulation, but it is never altered; only called on the command terminal.
 
 The ZeolitesToTry folder holds all the xyz files of the zeolites used. This was created by going to the Database of Zeolite Structures (https://www.iza-structure.org/databases/) and downloading the CIF file Si-) frameworks of all the zeolites. Then, using the VESTA software, every CIF file was loaded and exported into XYZ format. Afterward, the unit cell lattice dimensions were inserted into the top line of each XYZ file. 
 
