@@ -1,5 +1,5 @@
 
-Adsorption Capacities (+- .17 mmol/g) 
+Adsorption Capacities at 1.0 atm flue gas (22% CO2, +- .17 mmol/g) 
 
 Si/Al | FAU | LTA | RHO | MFI | JSR | MOR | RWY | KFI | FER |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
